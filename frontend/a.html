@@ -1,0 +1,611 @@
+<div id="site-wrapper">
+  <div id="site">
+    <div
+      class="bg-agility relative px-8 text-gray-200"
+      data-agility-previewbar="true"
+    >
+      <div class="flex justify-between items-center max-w-screen-xl mx-auto">
+        <div class="flex items-center">
+          <span class="p-2 rounded-lg mr-4"
+            ><a
+              href="https://app.agilitycms.com"
+              target="_blank"
+              rel="noreferrer"
+              title="Agility CMS"
+              ><img
+                alt="Agility CMS"
+                loading="lazy"
+                width="20"
+                height="20"
+                decoding="async"
+                data-nimg="1"
+                class="w-5 h-5 block md:hidden"
+                style="color: transparent"
+                src="/assets/agility-logo-triangle.svg" /><img
+                alt="Agility CMS"
+                loading="lazy"
+                width="80"
+                height="20"
+                decoding="async"
+                data-nimg="1"
+                class="h-5 w-20 hidden md:block"
+                style="color: transparent"
+                src="/assets/agility-preview-logo.svg" /></a
+          ></span>
+          <div class="mr-4">
+            <a
+              href="https://agilitycms.com/docs"
+              target="_blank"
+              rel="noreferrer"
+              title="Help Center"
+              ><div class="flex items-center">
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  class="text-2xl mr-2"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"
+                  ></path>
+                </svg>
+                <p class="hidden md:block text-sm">Agility Docs</p>
+              </div></a
+            >
+          </div>
+          <div>
+            <a
+              href="https://github.com/agility/agilitycms-nextjs-starter"
+              target="_blank"
+              rel="noreferrer"
+              title="View on GitHub"
+              class="text-2xl"
+              ><div class="flex items-center">
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 496 512"
+                  class="mr-2"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                  ></path>
+                </svg>
+                <p class="hidden md:block text-sm">View on GitHub</p>
+              </div></a
+            >
+          </div>
+        </div>
+        <div class="relative flex items-center bg-agility py-4">
+          <p class="hidden md:block text-sm px-2 text-gray-200">
+            Viewing <span class="font-bold">Published</span> Content
+          </p>
+          <div class="p-2 text-gray-200 rounded-lg cursor-pointer z-20">
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 448 512"
+              class="text-gray-200"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+              ></path>
+            </svg>
+          </div>
+          <div
+            class="absolute bg-white text-white text-sm py-4 px-4 w-15.1 -right-0 -bottom-28 md:-bottom-16 z-10 rounded-b-lg shadow-xl md:max-w-full"
+            style="display: none"
+          >
+            <p class="mb-4 text-center md:hidden text-agility z-20">
+              Viewing <span class="font-bold">Published</span> Content
+            </p>
+            <button
+              class="text-gray-200 bg-agility p-2 w-full rounded-md text-sm disabled:bg-gray-700 flex gap-2 items-center justify-center"
+              aria-disabled="false"
+            >
+              View Preview Mode
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col min-h-screen">
+      <header class="relative w-full mx-auto bg-white px-8">
+        <div class="max-w-screen-xl mx-auto">
+          <div
+            class="flex justify-between items-center py-6 md:justify-start md:space-x-10 w-full"
+          >
+            <div class="md:w-0 md:flex-1">
+              <a class="flex items-center" href="/"
+                ><img
+                  alt="Starter Site"
+                  loading="lazy"
+                  width="230"
+                  height="300"
+                  decoding="async"
+                  data-nimg="1"
+                  class="h-14 sm:h-20 w-auto"
+                  style="color: transparent"
+                  srcset="
+                    https://cdn.aglty.io/blog-starter-2021-template/logos/travel-blog-logo.png?q=60&amp;w=230&amp;format=auto 1x,
+                    https://cdn.aglty.io/blog-starter-2021-template/logos/travel-blog-logo.png?q=60&amp;w=230&amp;format=auto 2x
+                  "
+                  src="https://cdn.aglty.io/blog-starter-2021-template/logos/travel-blog-logo.png?q=60&amp;w=230&amp;format=auto"
+                />
+                <p class="font-bold text-xl text-secondary-500 ml-3 mt-2">
+                  My Starter Site
+                </p></a
+              >
+            </div>
+            <div class="-mr-2 -my-2 md:hidden">
+              <button
+                aria-label="Toggle Menu"
+                type="button"
+                class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+              >
+                <svg
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <nav class="hidden md:flex space-x-10">
+              <a
+                class="text-base leading-6 font-medium text-secondary-500 hover:text-primary-500 border-transparent border-b-2 hover:border-primary-500 hover:border-b-primary hover:border-b-2 focus:outline-none focus:text-primary-500 transition duration-300"
+                href="/"
+                >Home</a
+              ><a
+                class="text-base leading-6 font-medium text-secondary-500 hover:text-primary-500 border-transparent border-b-2 hover:border-primary-500 hover:border-b-primary hover:border-b-2 focus:outline-none focus:text-primary-500 transition duration-300"
+                href="/blog"
+                >Blog</a
+              ><a
+                class="text-base leading-6 font-medium text-secondary-500 hover:text-primary-500 border-transparent border-b-2 hover:border-primary-500 hover:border-b-primary hover:border-b-2 focus:outline-none focus:text-primary-500 transition duration-300"
+                href="/about"
+                >About</a
+              >
+            </nav>
+          </div>
+        </div>
+        <div
+          class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-20"
+          style="display: none"
+        >
+          <div class="rounded-lg shadow-lg">
+            <div
+              class="rounded-lg shadow-xs bg-white divide-y-2 divide-gray-50"
+            >
+              <div class="pt-5 pb-6 px-5 space-y-6">
+                <div class="flex items-center justify-between">
+                  <div>
+                    <a class="flex items-center" href="/"
+                      ><img
+                        alt="Starter Site"
+                        loading="lazy"
+                        width="230"
+                        height="300"
+                        decoding="async"
+                        data-nimg="1"
+                        class="h-14 sm:h-20 w-auto"
+                        style="color: transparent"
+                        srcset="
+                          https://cdn.aglty.io/blog-starter-2021-template/logos/travel-blog-logo.png?q=60&amp;w=230&amp;format=auto 1x,
+                          https://cdn.aglty.io/blog-starter-2021-template/logos/travel-blog-logo.png?q=60&amp;w=230&amp;format=auto 2x
+                        "
+                        src="https://cdn.aglty.io/blog-starter-2021-template/logos/travel-blog-logo.png?q=60&amp;w=230&amp;format=auto"
+                      />
+                      <p class="font-bold text-xl text-secondary-500 ml-3 mt-2">
+                        My Starter Site
+                      </p></a
+                    >
+                  </div>
+                  <div class="">
+                    <button
+                      aria-label="Toggle Menu"
+                      type="button"
+                      class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-300"
+                    >
+                      <svg
+                        class="h-6 w-6"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M6 18L18 6M6 6l12 12"
+                        ></path>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <nav class="grid gap-y-8">
+                    <a
+                      class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition duration-300"
+                      href="/"
+                      ><svg
+                        class="flex-shrink-0 h-6 w-6 text-primary-600"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
+                        ></path>
+                      </svg>
+                      <div
+                        class="text-base leading-6 font-medium text-gray-900"
+                      >
+                        Home
+                      </div></a
+                    ><a
+                      class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition duration-300"
+                      href="/blog"
+                      ><svg
+                        class="flex-shrink-0 h-6 w-6 text-primary-600"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
+                        ></path>
+                      </svg>
+                      <div
+                        class="text-base leading-6 font-medium text-gray-900"
+                      >
+                        Blog
+                      </div></a
+                    ><a
+                      class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition duration-300"
+                      href="/about"
+                      ><svg
+                        class="flex-shrink-0 h-6 w-6 text-primary-600"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
+                        ></path>
+                      </svg>
+                      <div
+                        class="text-base leading-6 font-medium text-gray-900"
+                      >
+                        About
+                      </div></a
+                    >
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="flex-grow">
+        <!--$-->
+        <div data-agility-page="2">
+          <div>
+            <div class="relative px-8" data-agility-component="106">
+              <div
+                class="flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24 items-center"
+              >
+                <div
+                  class="md:w-6/12 flex-shrink-0 relative"
+                  data-agility-field="image"
+                >
+                  <a class="relative" href="/blog"
+                    ><picture
+                      ><source
+                        media="(min-width: 1280px)"
+                        width="800"
+                        srcset="https://cdn.aglty.io/blog-starter-2021-template/posts/gaddafi-rusli-2ueUnL4CkV8-unsplash 1.jpg?format=auto&amp;w=800" />
+                      <source
+                        media="(min-width: 640px)"
+                        width="640"
+                        srcset="https://cdn.aglty.io/blog-starter-2021-template/posts/gaddafi-rusli-2ueUnL4CkV8-unsplash 1.jpg?format=auto&amp;w=640" />
+                      <source
+                        media="(max-width: 639px)"
+                        width="640"
+                        srcset="https://cdn.aglty.io/blog-starter-2021-template/posts/gaddafi-rusli-2ueUnL4CkV8-unsplash 1.jpg?format=auto&amp;w=640" />
+                      <img
+                        loading="eager"
+                        src="https://cdn.aglty.io/blog-starter-2021-template/posts/gaddafi-rusli-2ueUnL4CkV8-unsplash 1.jpg?format=auto&amp;w=600"
+                        alt="Overhead photo of an Island"
+                        class="rounded-lg object-cover object-center" /></picture
+                  ></a>
+                </div>
+                <div
+                  class="md:w-6/12 mt-16 md:mt-0 md:mr-12 lg:mr-16 md:order-first"
+                >
+                  <div class="g:py-8 text-center md:text-left">
+                    <div
+                      data-agility-field="tagline"
+                      class="font-bold text-primary-500 text-sm text-center md:text-left uppercase py-1"
+                    >
+                      Wander The World
+                    </div>
+                    <h2
+                      data-agility-field="title"
+                      class="font-display text-4xl font-black text-secondary-500 md:text-3xl lg:text-5xl tracking-wide text-center mt-4 lg:leading-tight md:text-left"
+                    >
+                      From short breaks to long adventures
+                    </h2>
+                    <p
+                      data-agility-field="content"
+                      class="mt-4 text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-200"
+                    >
+                      Travel blog featuring travel tips, guides, and photography
+                      from around the world. Whether you need guidance for your
+                      first trip, or you're a seasoned traveler looking for
+                      destination inspiration, you've come to the right place!
+                    </p>
+                    <a
+                      data-agility-field="primaryButton"
+                      title="Read our blog"
+                      target="_self"
+                      class="inline-block mt-8 md:mt-8 px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-primary-500 hover:bg-primary-700 focus:outline-none focus:border-primary-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
+                      href="/blog"
+                      >Read our blog</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="relative px-8" data-agility-component="122">
+              <div
+                class="flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24 items-center"
+              >
+                <div
+                  class="md:w-6/12 flex-shrink-0 relative"
+                  data-agility-field="image"
+                >
+                  <a class="relative" href="/about"
+                    ><picture
+                      ><source
+                        media="(min-width: 1280px)"
+                        width="800"
+                        srcset="
+                          https://cdn.aglty.io/blog-starter-2021-template/posts/travel-photography_20210331143648_0.jpg?format=auto&amp;w=800
+                        " />
+                      <source
+                        media="(min-width: 640px)"
+                        width="640"
+                        srcset="
+                          https://cdn.aglty.io/blog-starter-2021-template/posts/travel-photography_20210331143648_0.jpg?format=auto&amp;w=640
+                        " />
+                      <source
+                        media="(max-width: 639px)"
+                        width="640"
+                        srcset="
+                          https://cdn.aglty.io/blog-starter-2021-template/posts/travel-photography_20210331143648_0.jpg?format=auto&amp;w=640
+                        " />
+                      <img
+                        loading="lazy"
+                        src="https://cdn.aglty.io/blog-starter-2021-template/posts/travel-photography_20210331143648_0.jpg?format=auto&amp;w=600"
+                        alt="Camera with map"
+                        class="rounded-lg object-cover object-center" /></picture
+                  ></a>
+                </div>
+                <div
+                  class="md:w-6/12 mt-16 md:mt-0 md:ml-12 lg:ml-16 md:order-last"
+                >
+                  <div class="g:py-8 text-center md:text-left">
+                    <div
+                      data-agility-field="tagline"
+                      class="font-bold text-primary-500 text-sm text-center md:text-left uppercase py-1"
+                    >
+                      About Us
+                    </div>
+                    <h2
+                      data-agility-field="title"
+                      class="font-display text-4xl font-black text-secondary-500 md:text-3xl lg:text-5xl tracking-wide text-center mt-4 lg:leading-tight md:text-left"
+                    >
+                      Adventurers and Storytellers
+                    </h2>
+                    <p
+                      data-agility-field="content"
+                      class="mt-4 text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-200"
+                    >
+                      Through our award-winning blog, we love to provide
+                      travelers with guidance and inspiration and connect them
+                      to meaningful experiences as they travel the world with
+                      curiosity!
+                    </p>
+                    <a
+                      data-agility-field="primaryButton"
+                      title="Learn about us"
+                      target="_self"
+                      class="inline-block mt-8 md:mt-8 px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-primary-500 hover:bg-primary-700 focus:outline-none focus:border-primary-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
+                      href="/about"
+                      >Learn about us</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/$-->
+      </main>
+      <footer class="relative px-8 py-6 md:py-4 mt-8 bg-gray-100">
+        <div class="max-w-screen-xl mx-auto md:flex md:items-center">
+          <div
+            class="text-center mb-4 md:mb-0 md:text-left flex-shrink-0 relative"
+          >
+            <a
+              href="https://www.agilitycms.com"
+              target="_blank"
+              rel="noreferrer"
+              title="Agility CMS"
+              ><img
+                alt="Agility CMS"
+                loading="lazy"
+                width="90"
+                height="24"
+                decoding="async"
+                data-nimg="1"
+                style="color: transparent"
+                src="/assets/agility-logo.svg"
+            /></a>
+          </div>
+          <div class="flex-grow mb-4 md:mb-0">
+            <p
+              class="text-center md:text-left text-gray-600 text-xs md:ml-8 md:max-w-3xl"
+            >
+              Powered by Agility. This website and materials found on it are for
+              demo purposes. You can use this to preview the content you created
+              on your Agility CMS account.<!-- -->&nbsp;<a
+                href="https://github.com/agility/agilitycms-nextjs-starter"
+                title="View on GitHub"
+                target="_blank"
+                rel="noreferrer"
+                class="text-gray-600 mr-2 border-b border-gray-600"
+                >GitHub</a
+              ><a
+                href="https://agilitycms.com/docs"
+                title="Agility Docs"
+                target="_blank"
+                rel="noreferrer"
+                class="text-gray-600 mr-1 border-b border-gray-600"
+                >Agility Docs</a
+              >&nbsp;<a
+                href="https://agilitycms.com/contact-us/chat-sales"
+                title="Contact Us"
+                target="_blank"
+                rel="noreferrer"
+                class="text-gray-600 border-b border-gray-600"
+                >Contact Us</a
+              >
+            </p>
+          </div>
+          <div class="flex-1-grow">
+            <ul class="flex justify-center md:justify-start">
+              <li class="mx-4 md:mx-0">
+                <a
+                  href="https://www.twitter.com/agilitycms"
+                  title="Follow Agility CMS on X (Twitter)"
+                  target="_blank"
+                  rel="noreferrer"
+                  ><svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    class="text-xl md:ml-8 text-primary-500 hover:text-primary-700 transition duration-300"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                    ></path></svg
+                ></a>
+              </li>
+              <li class="mx-4 md:mx-0">
+                <a
+                  href="https://www.instagram.com/agilitycms"
+                  title="Follow Agility CMS on Instagram"
+                  target="_blank"
+                  rel="noreferrer"
+                  ><svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 448 512"
+                    class="text-xl md:ml-8 text-primary-500 hover:text-primary-700 transition duration-300"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                    ></path></svg
+                ></a>
+              </li>
+              <li class="mx-4 md:mx-0">
+                <a
+                  href="https://agilitycms.com/join-slack"
+                  title="Follow Agility CMS on Slack"
+                  target="_blank"
+                  rel="noreferrer"
+                  ><svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 448 512"
+                    class="text-xl md:ml-8 text-primary-500 hover:text-primary-700 transition duration-300"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"
+                    ></path></svg
+                ></a>
+              </li>
+              <li class="mx-4 md:mx-0">
+                <a
+                  href="https://www.youtube.com/@AgilityCMS"
+                  title="Follow Agility CMS on YouTube"
+                  target="_blank"
+                  rel="noreferrer"
+                  ><svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 576 512"
+                    class="text-xl md:ml-8 text-primary-500 hover:text-primary-700 transition duration-300"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                    ></path></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
