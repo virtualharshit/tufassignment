@@ -2,7 +2,7 @@
 
 ### Deployed Link
 
-You can view the live version of the project here: [Deployed Project Link](https://tufassignment.vercel.app/dashboard)
+You can view the live version of the project here: [Deployed Project Link](https://tufassignment.vercel.app)
 
 ## Technologies Used
 
